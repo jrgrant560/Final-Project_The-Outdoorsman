@@ -7961,19 +7961,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Phil\\.nuget\\packages\\": {}
+    "C:\\Users\\School\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Phil\\Desktop\\FinalProject\\OutdoorsmanBackend\\team-the-kingdom-coders-backend\\OutdoorsmanBackend.csproj",
+      "projectUniqueName": "C:\\Users\\School\\Desktop\\_PERSONAL\\Final Project_The Outdoorsman\\Final Project_The Outdoorsman_backend\\OutdoorsmanBackend.csproj",
       "projectName": "OutdoorsmanBackend",
-      "projectPath": "C:\\Users\\Phil\\Desktop\\FinalProject\\OutdoorsmanBackend\\team-the-kingdom-coders-backend\\OutdoorsmanBackend.csproj",
-      "packagesPath": "C:\\Users\\Phil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Phil\\Desktop\\FinalProject\\OutdoorsmanBackend\\team-the-kingdom-coders-backend\\obj\\",
+      "projectPath": "C:\\Users\\School\\Desktop\\_PERSONAL\\Final Project_The Outdoorsman\\Final Project_The Outdoorsman_backend\\OutdoorsmanBackend.csproj",
+      "packagesPath": "C:\\Users\\School\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\School\\Desktop\\_PERSONAL\\Final Project_The Outdoorsman\\Final Project_The Outdoorsman_backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Phil\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\School\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -8054,7 +8054,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

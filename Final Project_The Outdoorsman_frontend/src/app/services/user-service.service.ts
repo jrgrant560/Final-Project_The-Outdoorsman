@@ -1,10 +1,7 @@
 import { Injectable } from '@angular/core';
-import { Observable, of, Subject } from 'rxjs';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Product } from '../models/product'; 
+import { Observable, Subject } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
 import { User } from '../models/user';
-import { Order } from '../models/order';
-import { StringMapWithRename } from '@angular/compiler/src/compiler_facade_interface';
 
 @Injectable({
   providedIn: 'root'

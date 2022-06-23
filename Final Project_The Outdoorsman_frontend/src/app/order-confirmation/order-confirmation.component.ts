@@ -4,7 +4,6 @@ import { OutdoorsmanService } from '../services/outdoorsman.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { User } from '../models/user';
 import { Product } from '../models/product';
-import { Quote } from '@angular/compiler';
 
 @Component({
   selector: 'app-order-confirmation',
