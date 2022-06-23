@@ -1,0 +1,33 @@
+<div class="acctInfo">
+    <p class="welcome">Hello {{ currentUser.firstName }},
+    <p>
+    <h1>ACCOUNT INFORMATION</h1>
+    <ul class="infoCard">
+        <li>First Name: {{ currentUser.firstName }}</li>
+        <li>Last Name: {{ currentUser.lastName }}</li>
+        <li>Email: {{ currentUser.emailAddress}}</li>
+        <li>Street Address: {{ currentUser.streetAddress }}</li>
+        <li>City: {{ currentUser.city }}</li>
+        <li>State: {{ currentUser.state }}</li>
+        <li>Zip Code: {{currentUser.zipCode }}</li>
+        <li>Phone Number: {{currentUser.phoneNumber }}</li>
+    </ul>
+    <div class="btn">
+        <button (click)="deleteAccount()">Delete Account</button>
+    </div>
+
+    <div class="orderHistory">
+        <h1>ORDER HISTORY</h1>
+
+        <div class="orderInfo" *ngFor="let orders of allUserOrders">
+            <p>Order ID: {{orders.orderId}}</p>
+            <div *ngFor="let product of parseProducts(orders.orderProducts)">
+                <p>{{product.itemName}}</p>
+            </div>
+            <p>Order Total Price: {{orders.totalPrice}}</p>
+            <p>{{ formatDateTime(orders.Date) }}</p>
+        </div>
+
+
+    </div>
+</div>

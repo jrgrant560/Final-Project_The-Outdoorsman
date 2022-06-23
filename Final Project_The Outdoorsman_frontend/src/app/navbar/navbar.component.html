@@ -1,0 +1,21 @@
+<nav class="navbar-container">
+    <div class="logo">
+        <img src="../../assets/Outdoorsman Logo.png" alt="">
+    </div>
+    <ul>
+        <li><a routerLink="/home" router>HOME</a></li>
+        <li><a routerLink="/about">ABOUT US</a></li>
+        <li><a routerLink="/product/category/Hiking">HIKING</a></li>
+        <li><a routerLink="/product/category/Camping">CAMPING</a></li>
+        <li><a routerLink="/product/category/Kayaking">KAYAKING</a></li>
+
+        <div class="loginbutton"><button  *ngIf ="!isUserLoggedIn" routerLink="/login">LOGIN</button></div>
+        <p class="welcome-name" *ngIf = "isUserLoggedIn">Welcome, <a routerLink="/account">{{user.firstName}} {{user.lastName}}</a></p>
+        <div class="logoutbutton"><button  *ngIf ="isUserLoggedIn" (click)="logOut()">LOG OUT</button></div>
+        <div class="signUpWrapper"><a *ngIf = "!isUserLoggedIn" routerLink="/createAccount">Sign Up</a></div>
+        <div class="count">{{cartCount}}</div>
+        <a routerLink="/cart"><i class="fa-solid fa-cart-shopping"></i></a>
+        
+     </ul>
+</nav> 
+

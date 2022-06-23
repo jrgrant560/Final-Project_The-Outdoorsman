@@ -1,0 +1,98 @@
+.footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  background-color: #fdf8f5;
+  margin: 0;
+  width: 100%;
+}
+
+.footer>div {
+  padding: 15px;
+  text-align: center;
+  color: #4F4846;
+}
+
+.links {
+  display: flex;
+  padding-top: 5px;
+  width: 50%;
+  margin: auto;
+}
+
+.links>a {
+  text-align: center;
+}
+
+
+#face {
+  color: #266150;
+  padding: 0;
+  font-size: larger;
+}
+
+#twit {
+  color: #266150;
+  font-size: larger;
+}
+
+#insta {
+  color: #266150;
+  font-size: larger;
+}
+
+#email {
+  color: #266150;
+  font-size: medium;
+  position: static;
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    display: flex;
+    background-color: #fdf8f5;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .footer>div {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .links {
+    display: flex;
+    padding-top: 5px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .links>a {
+    text-align: center;
+  }
+
+
+  #face {
+    color: #266150;
+    padding: 0;
+    font-size: larger;
+  }
+
+  #twit {
+    color: #266150;
+    font-size: larger;
+  }
+
+  #insta {
+    color: #266150;
+    font-size: larger;
+  }
+
+  #email {
+    color: #266150;
+    font-size: medium;
+    position: static;
+    font-size: small;
+  }
+}

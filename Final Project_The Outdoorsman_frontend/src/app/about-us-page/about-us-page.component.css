@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.image-container {
+    display: flex;
+    width: 62.25%;
+    height: auto;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    margin-top: 55px;
+    width: 100%;
+    height: auto;
+}
+
+.about-me-text {
+    display:flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+
+.about-me-text h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.6rem;
+    color: #4f4846;
+    background-color: #FDF8F5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 103.4%;
+}
+
+.about-me-text h3{
+    margin-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 1.75rem;
+    color: #4f4846;
+}
+
+.about-me-text p {
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 1.25rem;
+    color: #4f4846;
+    text-indent: 1cm;
+}
+
+.sincerely {
+    font-size: 1.25rem;
+    color: #4f4846;
+}
+
+.signature {
+    color: #4f4846;
+    font-size: 2rem;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+@media screen and (max-width: 900px){
+    .image-container {
+       width: 85%;
+    }
+
+    .about-me-text h2 {
+        font-size: 2.2rem;
+    }
+
+    .about-me-text {
+        width: 85%;
+        padding-bottom: 100px;
+    }
+
+    .about-me-text h3 {
+        font-size: 1.5rem;
+    }
+    .about-me-text p {
+        font-size: 1.1rem;
+    }
+
+    .sincerely {
+        font-size:1.1rem;
+    }
+}
+    
+    
+
+
+

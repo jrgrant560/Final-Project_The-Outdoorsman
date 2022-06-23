@@ -1,0 +1,306 @@
+.body {
+  background-image: url(../../assets/loginpagepicture.jpg);
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  color: #4F4846;
+
+
+}
+
+h2 {
+  color: #266150;
+  font-size: x-large;
+  margin-bottom: 15px;
+}
+
+p {
+  color: #4F4846;
+}
+
+.login-form-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FDF8F5;
+  height: 300px;
+  width: 27%;
+  margin-top: 200px !important;
+  text-align: center;
+  padding: 10px 0 0 0;
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+input {
+
+
+  display: flex;
+  width: 100%;
+  outline: none;
+  height: 20px;
+  line-height: 10px;
+  border-radius: 4px;
+  margin: 5px 0;
+  border: 1px solid rgb(197, 196, 196);
+  padding: 10px;
+  color: #266150;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+
+button {
+  width: 100%;
+  height: 30px;
+  background-color: #266150;
+  color: white;
+  margin-top: 30px;
+  border-radius: 0px;
+  position: relative;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2 ease;
+  font-size: 16px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.create-account-wrap {
+  background-color: #fcf8f7;
+  font-size: 14px;
+  width: 90%;
+  border-radius: 0 0 4px 4px;
+  margin-top: 35px;
+}
+
+label {
+  color: #4F4846;
+  text-align: center;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 950px) {
+
+  div {
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+    color: #4F4846;
+
+
+  }
+
+  h2 {
+    color: #266150;
+    font-size: xx-large;
+    margin-bottom: 15px;
+    margin-top: 13px;
+  }
+
+  p {
+    margin-top: -20px;
+    padding-top: 70px;
+    color: #4F4846;
+  }
+
+  .login-form-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDF8F5;
+    height: 500px;
+    width: 65%;
+    margin-top: 200px !important;
+    text-align: center;
+    padding: 10px 0 0 0;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-top: 50px;
+  }
+
+  input {
+    display: flex;
+    width: 100%;
+    outline: none;
+    height: 40px;
+    line-height: 10px;
+    border-radius: 4px;
+    margin: 5px 0;
+    border: 1px solid rgb(197, 196, 196);
+    padding: 10px;
+    color: #266150;
+    font-size: 15px;
+    font-weight: bold;
+
+  }
+
+
+  button {
+    width: 100%;
+    height: 40px;
+    background-color: #266150;
+    color: white;
+    margin-top: 30px;
+    border-radius: 0px;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2 ease;
+    font-size: 16px;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+  }
+
+  .create-account-wrap {
+    background-color: #fcf8f7;
+    font-size: 14px;
+    width: 90%;
+    border-radius: 0 0 4px 4px;
+    margin-top: 35px;
+  }
+
+  label {
+    color: #4F4846;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 950px) {  
+    
+  
+
+    div {
+      font-size: 1.6rem;
+      font-family: "Open Sans", sans-serif;
+      color: #4F4846;
+      
+  
+    }
+  
+    h2 {
+      color: #266150;
+      font-size:xx-large;
+      margin-bottom: 15px;
+      margin-top: 13px;
+    }
+    
+    p {
+      margin-top: -20px;
+      padding-top: 70px;
+      color: #4F4846;
+    }
+  
+    .login-form-wrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #FDF8F5;
+      height: 500px;
+      width: 65%;
+      margin-top: 200px !important;
+      text-align: center;
+      padding: 10px 0 0 0;
+      border-radius: 4px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 15px;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      margin-top: 50px;
+    }
+    
+    input {
+      
+  
+      display: flex;
+      width: 100%;
+      outline: none;
+      height: 40px;
+      line-height: 10px;
+      border-radius: 4px;
+      margin: 5px 0;
+      border: 1px solid rgb(197, 196, 196);
+      padding: 10px;
+      color: #266150;
+      font-size: 15px;
+      font-weight: bold;
+  
+    }
+    
+  
+    button {
+      width: 100%;
+      height: 40px;
+      background-color: #266150;
+      color: white;
+      margin-top: 30px;
+      border-radius:0px;
+      position: relative;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2 ease;
+      font-size: 16px;
+    }
+    
+    button:hover {
+      transform: scale(1.1);
+    }
+    
+    .create-account-wrap {
+      background-color: #fcf8f7;
+      font-size: 14px;
+      width: 90%;
+      border-radius: 0 0 4px 4px;
+      margin-top: 35px;
+    }
+    
+    label {
+      color: #4F4846;
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+
+
+
+}

@@ -1,0 +1,205 @@
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.banner {
+    background-image: url(https://images.unsplash.com/photo-1487730116645-74489c95b41b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y2FtcGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+    height: 500px;
+    position: relative;
+    margin-left: -120px;
+    margin-right: -120px;
+    max-width: 84%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    opacity: 1;
+    transition-duration: 400ms;
+    transition-timing-function: ease-in;
+    cursor: pointer;
+    clear: both;
+    top: 25px;
+    margin-top: 50px;
+}
+
+.banner p {
+    color: #FDF8F5;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+
+.product-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1600;
+    margin-top: 75px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin-bottom: 100px;
+}
+
+.product-card a {
+    text-decoration: none;
+    color: #4F4846;
+}
+
+.product-card a:hover {
+    color: #a82e23;
+}
+
+.product-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 370px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #FDF8F5;
+    margin-top: 20px;
+}
+
+.product-card h3 {
+    margin-top: 15px;
+}
+
+img {
+    margin-right: 10px;
+}
+
+.module {
+    width: 250px;
+    margin: 0 0 1em 0;
+    overflow: hidden
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.image {
+    width: 250px;
+    height: 160px;
+    overflow: hidden;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .main-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .banner {
+        background-image: url(https://images.unsplash.com/photo-1487730116645-74489c95b41b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y2FtcGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+        height: auto;
+        position: relative;
+        margin-left: -120px;
+        margin-right: -120px;
+        max-width: 100%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+        opacity: 1;
+        transition-duration: 400ms;
+        transition-timing-function: ease-in;
+        cursor: pointer;
+        clear: both;
+        top: 25px;
+        margin-top: 25px;
+    }
+
+    .banner p {
+        color: #FDF8F5;
+        font-size: 23px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .banner-area p {
+        color: #FDF8F5;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        font-family: sans-serif;
+        margin-top: 50px;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+
+    .product-card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1600;
+        margin-top: 50px;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        margin-bottom: 100px;
+    }
+
+    .product-card {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 250px;
+        height: 370px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        text-align: center;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding: 20px;
+        background-color: #FDF8F5;
+        margin-top: 10px;
+    }
+
+    .product-card h3 {
+        margin-top: 15px;
+    }
+
+    img {
+        margin-right: 10px;
+    }
+
+    .module {
+        width: 250px;
+        margin: 0 0 1em 0;
+        overflow: hidden
+    }
+
+    .line-clamp {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .image {
+        width: 250px;
+        height: 160px;
+        overflow: hidden;
+
+
+
+    }
+}

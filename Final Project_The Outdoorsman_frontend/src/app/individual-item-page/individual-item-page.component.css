@@ -1,0 +1,232 @@
+.single-item-body {
+    display: flex;
+    flex-direction: column;
+    height: 1300px;
+}
+
+.singleProduct-container {
+    display: flex;
+    height: 600px;
+}
+
+.image {
+    width: auto;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 75px;
+}
+
+.divider {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    height: 30px;
+    background-color: rgb(248, 245, 245);
+    border-top: 1px solid rgb(218, 215, 215);
+    border-bottom: 1px solid rgb(218, 215, 215);
+}
+
+.name-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-right: 165px;
+    margin-bottom: 125px;
+    max-width: 800px;
+}
+
+.name-price h2 {
+    color: #266150;
+    font-size: xx-large;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+.review {
+    margin-top: 12px;
+}
+
+.review i {
+    color: gold;
+    display: inline;
+    font-size: larger;
+}
+
+.name-price h4 {
+    color: #4F4846;
+    font-size: xx-large;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.name-price border-left {
+    color: #4F4846;
+    height: 50px;
+
+}
+
+.save {
+    color: crimson;
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.button {
+    margin-top: 20px;
+    width: 23%;
+    display: fixed;
+    justify-content: center;
+    background-color: #266150;
+    color: white;
+    border: none;
+    font-size: 1.0rem;
+    cursor: pointer;
+    transition: all 0.2 ease;
+    height: 40px;
+    padding: 10px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.description {
+    max-width: 1200px;
+}
+
+.description h2 {
+    color: #266150;
+    font-size: xx-large;
+    margin-left: 50px;
+    text-decoration: underline #266150;
+}
+
+.description p {
+    margin-left: 50px;
+    padding-top: 20px;
+    font-size: x-large;
+    word-spacing: 5px;
+    line-height: 35px;
+    color: #4F4846;
+}
+
+@media screen and (max-width: 900px) {
+    .single-item-body {
+        display: flex;
+        flex-direction: column;
+        height: 2000px;
+    }
+
+    .singleProduct-container {
+        display: flex;
+        flex-direction: column;
+
+
+        height: 600px;
+    }
+
+    .image {
+        width: auto;
+        height: 200px;
+        display: flex;
+        margin-top: 75px;
+    }
+
+    .divider {
+        margin-top: 10px;
+        margin-bottom: 80px;
+        height: 30px;
+        background-color: rgb(248, 245, 245);
+        border-top: 1px solid rgb(218, 215, 215);
+        border-bottom: 1px solid rgb(218, 215, 215);
+        width: 100%;
+    }
+
+    .name-price {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        max-width: 800px;
+    }
+
+    .name-price h2 {
+        color: #266150;
+        font-size: large;
+        font-family: sans-serif;
+    }
+
+    .review {
+        margin-top: 10px;
+    }
+
+    .review i {
+        color: gold;
+        display: inline;
+        font-size: small;
+    }
+
+    .name-price h4 {
+        color: black;
+        font-size: large;
+        font-family: sans-serif;
+        margin-top: 20px;
+    }
+
+    .name-price border-left {
+        color: black;
+        height: 50px;
+    }
+
+    .save {
+        color: crimson;
+        font-family: sans-serif;
+        font-size: small;
+        font-weight: 700;
+        padding-top: 10px;
+    }
+
+    .button {
+        margin-top: 20px;
+        width: 200px;
+        display: fixed;
+        justify-content: center;
+        background-color: #266150;
+        color: white;
+        border: none;
+        font-size: 1.0rem;
+        cursor: pointer;
+        transition: all 0.2 ease;
+        height: 40px;
+        padding: 10px;
+        margin-left: 100px;
+    }
+
+    button:hover {
+        transform: scale(1.05);
+    }
+
+    .description {
+        max-width: 300px;
+    }
+
+    .description h2 {
+        color: #266150;
+        font-size: xx-large;
+        margin-left: 50px;
+        text-decoration: underline #266150;
+    }
+
+    .description p {
+        margin-left: 50px;
+        padding-top: 20px;
+        font-size: x-large;
+        word-spacing: 5px;
+        line-height: 35px;
+    }
+
+}

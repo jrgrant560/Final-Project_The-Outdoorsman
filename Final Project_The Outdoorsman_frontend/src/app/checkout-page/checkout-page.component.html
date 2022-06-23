@@ -1,0 +1,81 @@
+<h1>Check Out</h1>
+<div class="checkout-container">
+
+    <div class="form-main">
+        <div class="form-container">
+            <form (ngSubmit)="onSubmit()" class="form" #myForm="ngForm">
+                <h3>Personal Info</h3>
+                <div class="user-wrapper">
+                    <label class="labels">First Name</label>
+                    <input [(ngModel)]="checkoutOrder.firstName" class="inputs" type="text" name="firstName"><br>
+
+                    <label class="labels">Last Name</label>
+                    <input [(ngModel)]="checkoutOrder.lastName" class="inputs" type="text" name="lastName"><br>
+
+                    <label class="labels">Email</label>
+                    <input [(ngModel)]="checkoutOrder.email" class="inputs" type="text" name="email"><br>
+
+                    <label class="labels">Street Address</label>
+                    <input [(ngModel)]="checkoutOrder.streetAddress" class="inputs" type="text"
+                        name="streetAddress"><br>
+
+                    <label class="labels">City</label>
+                    <input [(ngModel)]="checkoutOrder.city" class="inputs" type="text" name="city"><br>
+
+                    <label class="labels">State</label>
+                    <input [(ngModel)]="checkoutOrder.state" class="inputs" type="text" name="state"><br>
+
+                    <label class="labels">Zip Code</label>
+                    <input [(ngModel)]="checkoutOrder.zipCode" class="inputs" type="text" name="zip"><br>
+
+                    <h5>Credit Card Info</h5>
+
+                    <label class="labels">Credit Card Number</label>
+                    <input [(ngModel)]="checkoutOrder.creditNumber" class="inputs" type="text" name="zip"><br>
+                </div>
+                <div class="credit-wrapper">
+                    <div class="credit-small-wrapper">
+                        <label class="labels">Expiration Date</label>
+                        <input [(ngModel)]="checkoutOrder.expDate" class="inputs" type="text" name="zip"><br>
+                    </div>
+                    <div class="credit-small-wrapper">
+                        <label class="labels">CVV</label>
+                        <input [(ngModel)]="checkoutOrder.cvv" class="inputs" type="text" name="zip"><br>
+                    </div>
+                </div>
+
+
+
+
+                <button type="submit" class="button">Submit Order</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="product-wrapper-main">
+        <div class="product-wrapper">
+            <div class="product-container">
+                <div class="item-big-wrapper" *ngFor="let product of fullCart">
+                    <div class="item-wrapper">
+                        <div class="image">
+                            <img src="{{product.image}}">
+                        </div>
+                        <div class="itemName">
+                            <p>{{product.itemName}}</p>
+                        </div>
+                        <div class="price">
+                            <p>{{product.price}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="totalPrice-container">
+            <h4>Total:<p id="totalPrice"></p>
+            </h4>
+
+
+        </div>
+    </div>
+
+</div>

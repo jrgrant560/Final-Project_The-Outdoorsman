@@ -1,0 +1,27 @@
+<div class="cart-container">
+    <div class="cart-banner">
+        <h2>Shopping Cart</h2>
+    </div>
+    <div class="empty-cart" *ngIf="!isCartEmpty">
+        <h1>Your cart is empty!</h1>
+    </div>
+    <div class="item-container">
+        <div class="product-card" *ngFor="let product of fullCart">
+            <div class="product">
+                <div class="image">
+                    <img src="{{product.image}}">
+                </div>
+                <div class="itemName">
+                    <p>{{product.itemName}}</p>
+                </div>
+                <div class="price-wrapper">
+                    <p class="itemPrice">{{product.price}}</p>
+                    <button (click)="removeItem(product.id)">Remove</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="checkout-btn">
+        <button (click)="loginCheck()" class="checkout">Checkout</button>
+    </div>
+</div>

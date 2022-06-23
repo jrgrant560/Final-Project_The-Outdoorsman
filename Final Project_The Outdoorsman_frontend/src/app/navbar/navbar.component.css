@@ -1,0 +1,213 @@
+ .navbar-container {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color:#FDF8F5 ;
+    overflow: hidden;
+}
+
+.navbar-container > ul > .logoutbutton > button{
+    height: 40%;
+    color:#FDF8F5;
+    background-color: #266150;
+    border:none;
+    font-size: 1rem;
+    margin-right: 19px;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-container > ul > .loginbutton > button{
+    height: 40%;
+    color:#FDF8F5;
+    background-color: #266150;
+    border:none;
+    font-size: 1rem;
+    margin-right: 19px;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-container > ul > .logoutbutton button:hover {
+    transform:scale(1.1);
+}
+
+
+.navbar-container > ul > .loginbutton button:hover {
+    transform:scale(1.1);
+}
+
+.navbar-container > ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.navbar-container > ul > li {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-container > ul > li > a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #4f4846;
+}
+
+.navbar-container > ul > li > a:hover{
+    text-decoration: none;
+    color:rgb(201, 71, 39);
+}
+
+.navbar-container > ul > li > .icon {
+    display: none;
+}
+
+.navbar-container .logo{
+    display: flex;
+    width: 400px;
+}
+
+.navbar-container > div > img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    margin-top: -115px;
+    margin-left: -5%;
+}
+
+.fa-solid {
+    color:  #4F4846;
+    font-size: 30px;
+}
+
+.welcome-name{
+    font-size: 1.2rem;
+    color: #4F4846;
+}
+
+.count{
+    font-size: 10px;
+    font-weight:bolder;
+    position:relative;
+    z-index: 20;
+    margin-right: -28px;
+    margin-top: -25px;
+    color: white;
+    background-color: #266150;
+    padding: 5px;
+    width: 40px;
+    border-radius: 50% ;
+}
+ 
+@media screen and (max-width: 832px) {
+
+    .navbar-container > ul > button {
+        width: 84px;
+        height: 30px;
+        margin-right: -2%;
+        margin-top: 5px;
+        border-radius:0px;
+        position: relative;
+    }
+
+    .navbar-container {
+        justify-content:space-between;
+        height: 210px;
+    }
+
+    .navbar-container > ul > li {
+        font-size: 12px;
+        padding-top: 3px;
+        
+    }
+  
+    .navbar-container > ul {
+        flex-direction: column; 
+        background-color: #4F4846;
+        width: 100%;
+        padding-top: 1%;
+    }
+
+    .navbar-container > ul > li > a{
+        justify-content: center;
+        color:#FDF8F5;
+    } 
+
+    .navbar-container > div > img {
+        height: 300px;
+        margin-top: -20px;
+        margin-left: -5px;
+    }
+    .navbar-container > ul > a > i {
+        color:#FDF8F5;
+        border: none;
+        margin-top: 20px;
+
+        margin-left: 40px; 
+
+    }
+}
+@media screen and (max-width: 450px) {
+    .navbar-container > ul > div>  button  {
+        width: 65px;
+        margin-left: 25px;
+        color: whitesmoke;
+        background-color: #266150;
+        border: none;
+    }
+
+    
+.welcome-name{
+    color: whitesmoke;
+    margin-left: 35px;
+}
+.navbar-container > ul> div > a {
+    padding: -20px;
+    color: whitesmoke;
+    margin-left: 30px
+}
+.navbar-container> ul > p > a {
+    color: whitesmoke;
+
+}
+
+    .navbar-container > ul > a > i {
+        color:#FDF8F5 ;
+        z-index: 3;
+        margin-top: 20px;
+        margin-left: 40px;
+        padding-top: 20px;
+
+
+    }
+    .count{
+        display: flex;
+        border-radius: 100px;
+        background-color: black;
+        width: 7px;
+        margin-bottom: -50px;
+        margin-left: -25px;
+        margin-top: 20px;
+        z-index:1;
+        
+    }
+    .navbar-container > ul {
+       margin-top: -8px;
+        display: flex; 
+    }
+
+    .navbar-container > div > img {
+       margin-top: -50px;
+    }
+} 

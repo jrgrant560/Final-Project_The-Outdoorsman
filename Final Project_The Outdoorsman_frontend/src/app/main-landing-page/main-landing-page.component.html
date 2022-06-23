@@ -1,0 +1,19 @@
+<div class="main-page">
+    <div class="banner">
+        <p>SAVE WITH OUR ANNUAL SPRING SALE</p>
+    </div>
+    <ul class="product-card-container">
+        <li *ngFor="let product of productList" class="product-card">
+            <a routerLink="/product/{{product.id}}">
+                <div class="image">
+                    <img src="{{product.image}}" alt="">
+                </div>
+                <h3>{{product.itemName}}</h3>
+                <div class="module line-clamp">
+                    <p>{{product.description}}</p>
+                </div>
+                <h4>{{product.price}}</h4>
+            </a>
+        </li>
+    </ul>
+</div>

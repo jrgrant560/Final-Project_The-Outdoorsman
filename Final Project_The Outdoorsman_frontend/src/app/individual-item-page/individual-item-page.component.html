@@ -1,0 +1,35 @@
+<script src="https://kit.fontawesome.com/032823e426.js" crossorigin="anonymous"></script>
+<div class="single-item-body">
+    <div class="singleProduct-container">
+        <div class="imageBox">
+            <img class="image" src="{{singleProduct.image}}" alt="">
+        </div>
+        <div class="name-price">
+            <div class="name">
+                <h2>{{singleProduct.itemName}}</h2>
+            </div>
+            <a class="review">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i></a>
+            <p>4.8 (107)</p>
+            <div class="price">
+                <h4>{{singleProduct.price}}</h4>
+            </div>
+
+
+
+            <p class="save">SAVE 10% WITH OUR SPRING SALE!</p>
+            <button (click)="addToCart()" class="button">ADD TO CART</button>
+        </div>
+    </div>
+    <div class="bodyDivider"></div>
+    <div class="divider">
+    </div>
+    <div class="description">
+        <h2>Description</h2>
+        <p>{{singleProduct.description}}</p>
+    </div>
+</div>

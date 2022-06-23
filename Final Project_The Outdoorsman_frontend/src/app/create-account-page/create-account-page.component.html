@@ -1,0 +1,41 @@
+<body
+    background="https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aGlraW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
+    class="body">
+
+    <div class="form-container">
+        <h1 class="title">CREATE ACCOUNT</h1><br>
+        <form (ngSubmit)="onSubmit()" class="form" #myForm="ngForm">
+            <label class="labels">First Name</label>
+            <input class="inputs" type="text" name="firstName" [(ngModel)]="newUser.firstName"><br>
+
+            <label class="labels">Last Name</label>
+            <input class="inputs" type="text" name="lastName" [(ngModel)]="newUser.lastName"><br>
+
+            <label class="labels">Email</label>
+            <input class="inputs" type="text" name="email" [(ngModel)]="newUser.emailAddress"><br>
+
+            <label class="labels">Phone</label>
+            <input class="inputs" type="text" name="phone" [(ngModel)]="newUser.phoneNumber"><br>
+
+            <label class="labels">Street Address</label>
+            <input class="inputs" type="text" name="streetAddress" [(ngModel)]="newUser.streetAddress"><br>
+
+            <label class="labels">City</label>
+            <input class="inputs" type="text" name="city" [(ngModel)]="newUser.city"><br>
+
+            <label class="labels">State</label>
+            <input class="inputs" type="text" name="state" [(ngModel)]="newUser.state"><br>
+
+            <label class="labels">Zip Code</label>
+            <input class="inputs" type="text" name="zip" [(ngModel)]="newUser.zipCode"><br>
+
+            <label class="labels">Password</label>
+            <input class="inputs" type="password" name="password" [(ngModel)]="newUser.password"><br>
+
+
+            <button type="submit" class="button">SIGN UP</button>
+        </form>
+
+    </div>
+
+</body>

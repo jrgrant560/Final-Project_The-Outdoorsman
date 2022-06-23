@@ -1,0 +1,143 @@
+.body {
+  height: 1200px;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  padding-top: 40px;
+}
+
+.title {
+  color: #266150;
+  font-size: x-large;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FDF8F5;
+  height: 920px;
+  width: 27%;
+  margin-top: 35px !important;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.inputs {
+  display: flex;
+  width: 100%;
+  outline: none;
+  height: 20px;
+  line-height: 10px;
+  border-radius: 4px;
+  margin: 5px 0;
+  border: 1px solid rgb(197, 196, 196);
+  padding: 5px;
+  color: #266150;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.labels {
+  font-weight: normal;
+  font-size: large;
+  text-align: start;
+  color: #4F4846;
+}
+
+.button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #266150;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.2 ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+
+}
+
+@media screen and (max-width: 900px) {
+  .body {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    padding-bottom: 70px;
+  }
+
+  .title {
+    color: #266150;
+    font-size: x-large;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDF8F5;
+    height: 870px;
+    width: 90%;
+    text-align: center;
+    padding: 10px 0 0 0;
+    border-radius: 4px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+  }
+
+  .input {
+    display: flex;
+    width: 100%;
+    outline: none;
+    height: 20px;
+    line-height: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(197, 196, 196);
+    color: #266150;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .labels {
+    font-weight: normal;
+    font-size: large;
+  }
+
+  .button {
+    width: 100%;
+    background-color: #266150;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2 ease;
+    font-size: 16px;
+  }
+
+  button:hover {
+    transform: scale(1.3);
+  }
+}

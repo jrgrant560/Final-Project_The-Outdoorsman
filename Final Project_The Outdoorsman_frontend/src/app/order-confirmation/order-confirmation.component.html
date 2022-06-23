@@ -1,0 +1,46 @@
+<h1>ORDER CONFIRMATION</h1>
+<div class="item-order-wrapper">
+    <div class="order-wrapper">
+        <h3>Shipping Info</h3>
+        <div>
+            <p>Order #:{{order.orderId}}</p>
+        </div>
+        <div class="firstName">
+            <p> {{order.firstName}} {{order.lastName}}</p>
+        </div>
+
+        <div class="email" Email>
+            <p> {{order.email}}</p>
+        </div>
+
+        <div class="streetAddress" Street Address>
+            <p> {{order.streetAddress}}</p>
+        </div>
+
+        <div class="city" City>
+            <p> {{order.city}}, {{order.state}} {{order.zipCode}} </p>
+        </div>
+
+
+        <div class="dateTime" dateTime>
+            <p> {{order.Date}}</p>
+        </div>
+        <h3>Ordered Products</h3>
+
+        <div class="orderProducts">
+            <div *ngFor="let product of parseProducts(order.orderProducts)">
+                <p>{{product.itemName}}</p>
+            </div>
+        </div>
+
+        <div class="totalPrice" totalPrice>
+            <p> Total: ${{order.totalPrice}} </p>
+        </div>
+        <h2>Thank You For Shopping The Outdoorsman</h2><br><br><br>
+        <h4>Here's a Dad Joke to Say Thank You!</h4>
+
+        <div class="joke" id="joke">
+
+        </div>
+    </div>
+</div>

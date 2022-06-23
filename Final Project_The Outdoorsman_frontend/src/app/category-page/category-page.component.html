@@ -1,0 +1,19 @@
+<div class="category-banner">
+    <h2>{{categoryProduct}}</h2>
+</div>
+<div class="product-wrapper">
+    <ul class="product-card-container">
+        <li *ngFor="let product of categoryProducts" class="product-card">
+            <a routerLink="/product/{{product.id}}">
+                <div class="image">
+                    <img src="{{product.image}}" alt="">
+                </div>
+                <h3>{{product.itemName}}</h3>
+                <h4>{{product.price}}</h4>
+                <div class="module line-clamp">
+                    <p>{{product.description}}</p>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,272 @@
+@media screen and (max-width: 4000px) and (min-width: 1502px) {
+
+
+  .joke {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #4F4846;
+  }
+
+  h4 {
+    padding-top: 50px;
+    font-size: 2rem;
+    color: #266150;
+    border-top: solid 1px #4F4846;
+  }
+
+  .item-order-wrapper {
+
+    height: 1600px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  h1 {
+    margin-top: 60px;
+    padding-top: 10px;
+    text-align: center;
+    color: #266150;
+    font-size: xxx-large;
+    padding-bottom: 10px;
+  }
+
+  h2 {
+    padding-top: 50px;
+    text-align: center;
+    color: #266150;
+    font-size: xxx-large;
+  }
+
+  h3 {
+    padding-bottom: 50px;
+    text-align: center;
+    color: #266150;
+    font-size: xxx-large;
+  }
+
+  .order-wrapper {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    width: 60%;
+    padding: 110px;
+    padding-left: 65px;
+    height: 1300px;
+    border: 9px solid #4F4846;
+  }
+
+  div {
+    align-self: center;
+    text-align: center;
+    padding-bottom: 35px;
+    height: auto;
+  }
+
+  p {
+    font-size: 30px;
+    color: #4F4846;
+  }
+}
+
+@media screen and (max-width: 1501px) and (min-width: 901px) {
+
+  .item-order-wrapper {
+    height: 1100px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  h1 {
+    margin-top: 60px;
+    padding-top: 10px;
+    text-align: center;
+    color: #266150;
+    font-size: xxx-large;
+    padding-bottom: 10px;
+  }
+
+  h2 {
+    padding-top: 40px;
+    text-align: center;
+    color: #266150;
+    font-size: xxx-large;
+  }
+
+  h3 {
+    padding-bottom: 50px;
+    text-align: center;
+    color: #266150;
+    font-size: xxx-large;
+  }
+
+  .order-wrapper {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    width: 60%;
+    padding: 110px;
+    padding-left: 80px;
+    height: 1300px;
+    border: 9px solid #4F4846;
+    align-content: center;
+  }
+
+  div {
+    align-self: center;
+    text-align: center;
+    padding-bottom: 35px;
+    height: auto;
+  }
+
+  p {
+    font-size: 30px;
+    color: #4F4846;
+
+  }
+}
+
+@media screen and (max-width:900px) and (min-width: 451px) {
+
+  .item-order-wrapper {
+    height: 1140px;
+    display: flex;
+    width: 102%;
+    flex-direction: column;
+    align-content: center;
+    margin-left: -30px;
+  }
+
+  h1 {
+    margin-top: 60px;
+    padding-left: 5px;
+    padding-top: 10px;
+    text-align: center;
+    color: #266150;
+    font-size: xxx-large;
+    padding-bottom: 10px;
+  }
+
+  h2 {
+    display: flex;
+    padding-top: 40px;
+    text-align: center;
+    color: #266150;
+    font-size: xxx-large;
+  }
+
+  h3 {
+    padding-bottom: 50px;
+    text-align: center;
+    color: #266150;
+    font-size: xxx-large;
+  }
+
+  .order-wrapper {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    width: 60%;
+    padding: 110px;
+    margin-left: -40px;
+    height: 1300px;
+    border: 9px solid #4F4846;
+  }
+
+  div {
+    align-self: center;
+    text-align: center;
+    padding-bottom: 35px;
+    height: auto;
+  }
+
+  p {
+    text-align: center;
+    font-size: 25px;
+    color: #4F4846;
+  }
+}
+
+@media screen and (min-width:53px) and (max-width:450px) {
+
+     
+.joke{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color:#4F4846;
+    padding-bottom: 50px;
+    
+  }
+ 
+.item-order-wrapper{
+  height: 1140px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-left: 20px;
+    
+    
+    
+}
+  
+h1{
+  margin-top: 60px;
+  padding-top: 10px;
+  align-self: center;
+  color: #266150;
+  font-size: xx-large;
+  padding-bottom: 10px;
+  padding-left: 50px;
+}
+h2{
+  padding-top: 50px;
+  /* text-align:center; */
+  align-self: auto;
+  color: #266150;
+  font-size: xxx-large;
+  
+  
+}
+h3{
+      
+  padding-bottom: 50px;
+  text-align: center;
+  color: #266150;
+  font-size: xxx-large;
+      
+}
+.order-wrapper{
+  -webkit-column-count: 1; 
+  -moz-column-count: 1; 
+  column-count: 1;
+  width:100%;
+  padding:10px;
+  
+  height: 1500px;
+  border: 9px solid #4F4846;
+      
+      
+}
+  
+div{
+    
+  align-self: center;
+  text-align: center;
+  padding-bottom: 35px;
+  height: auto;
+    
+}
+p{
+  align-self: center;
+  font-size: 20px ;
+  color: #4F4846;
+}}

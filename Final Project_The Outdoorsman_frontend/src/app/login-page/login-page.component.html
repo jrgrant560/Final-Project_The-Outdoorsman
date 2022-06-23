@@ -1,0 +1,19 @@
+<div class="body">
+  <div class="login-form-wrap">
+
+  
+
+    <h2>LOGIN</h2>
+    <form (ngSubmit)="onSubmit()" class="form">
+      <input id="email" type="text" name="email" placeholder="Email" [(ngModel)]="loginUser.emailAddress"><br>
+      <input [(ngModel)]="loginUser.password" type="password" id="password" name="password" placeholder="Password">
+      <button type="submit" id="login" value="Login">SUBMIT</button>
+    </form>
+
+
+    <div class="create-account-wrap">
+      <p>Not A Member? <a routerLink="/createAccount">Create Account</a>
+      <p>
+    </div>
+  </div>
+</div>

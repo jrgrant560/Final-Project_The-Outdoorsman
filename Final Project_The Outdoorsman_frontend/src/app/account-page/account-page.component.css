@@ -1,0 +1,166 @@
+
+
+.welcome {
+    color: #266150;
+    font-size: 75px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 195px;}
+
+.acctInfo h1 {
+    color: #266150;
+    text-decoration: underline;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+.infoCard {
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: block;
+    width: 30%;
+    height: 400px;
+    margin-left: 150px;
+    padding-top: 20px;
+    line-height: 40px;
+    list-style-type:none;
+    color: #4F4846;    
+}
+.btn{
+    margin-left: 150px;
+}
+
+.orderSelection {
+    display: inline;
+}
+
+.orderHistory h1 {
+    color: #266150;
+    text-decoration: underline;
+    margin-top: 80px;
+}
+
+.buttons {
+    margin-top: 20px;
+    justify-content: center;
+    color: white;
+    border: none;
+    font-size: 1.0rem;
+    cursor: pointer;
+    transition: all 0.2 ease;
+    height: 20px;
+    padding: 10px;
+    width: 5%;
+    margin-top: 70px;}
+    
+.orderInfo {
+    margin-left: 150px;
+    padding-top: 20px;
+    line-height: 30px;
+    font-size: large;
+    font-weight: bold;
+    width:50%;
+    color: #4f4846;
+    border-bottom: 1px solid #4F4846;
+    padding-bottom: 15px;
+}
+
+.orderHistory{
+    padding-bottom: 100px;
+
+}
+
+button{
+    background-color: #266150;
+    color: white;
+    font-size: 1.5rem;
+    cursor:pointer;
+    /* align-self: center; */
+    padding: 10px;
+    transition: all 0.2 ease;
+    width: 200px;
+    border: none;
+    margin-right: 90px;
+}
+
+
+@media screen and (max-width: 900px) {
+.welcome {
+    color: #266150;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 90px;}
+
+.acctInfo h1 {
+    color: #266150;
+    text-decoration: underline;
+    margin-top: 60px;
+    margin-left: 40px;
+    width: 100%;
+}
+
+.infoCard {
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 300px;
+    margin-left: 40px;
+    padding-top: 20px;
+    line-height: 40px;
+    list-style-type:none;
+    
+}
+
+.orderSelection {
+    display: inline;
+}
+
+.orderHistory h1 {
+    color: #266150;
+    text-decoration: underline;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.buttons {
+    margin-top: 20px;
+    justify-content: center;
+    color: white;
+    border: none;
+    font-size: 1.0rem;
+    cursor: pointer;
+    transition: all 0.2 ease;
+    height: 20px;
+    padding: 10px;
+    width: 5%;
+    margin-top: 70px;}
+    
+.orderInfo {
+    margin-left: 40px;
+    padding-top: 20px;
+    line-height: 30px;
+    font-size: large;
+    font-weight: bold;
+    width: 50%;
+    
+
+}
+
+.orderHistory{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+.btn{
+    margin-left: 45px;
+    margin-top: 70px;
+}
+}
+
