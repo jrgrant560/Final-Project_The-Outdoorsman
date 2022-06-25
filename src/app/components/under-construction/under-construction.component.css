@@ -1,0 +1,18 @@
+article {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    font-style: italic;
+    color:slategray;
+    text-align: center;
+}
+
+main {
+    margin: 10vh auto 0 auto;
+    width: 60%;
+}
+
+img {
+    display:block;
+    margin: auto;
+}
