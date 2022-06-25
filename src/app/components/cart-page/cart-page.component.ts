@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Product } from '../models/product';
+import { Product } from '../../models/product';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Cart } from '../models/cart';
-import { OutdoorsmanService } from '../services/outdoorsman.service';
+import { Cart } from '../../models/cart';
+import { OutdoorsmanService } from '../../services/outdoorsman.service';
 
 @Component({
   selector: 'app-cart-page',

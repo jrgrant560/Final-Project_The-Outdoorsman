@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Product } from '../models/product';
-import { OutdoorsmanService } from '../../app/services/outdoorsman.service';
-import { UserServiceService } from '../services/user-service.service';
-import { User } from '../models/user';
+import { Product } from '../../models/product';
+import { OutdoorsmanService } from '../../services/outdoorsman.service';
+import { UserServiceService } from '../../services/user-service.service';
+import { User } from '../../models/user';
 
 
 

@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { Order } from '../models/order';
-import { OutdoorsmanService } from '../services/outdoorsman.service';
+import { Order } from '../../models/order';
+import { OutdoorsmanService } from '../../services/outdoorsman.service';
 import { ActivatedRoute, Router } from '@angular/router';
-import { User } from '../models/user';
-import { Product } from '../models/product';
+import { User } from '../../models/user';
+import { Product } from '../../models/product';
 
 @Component({
   selector: 'app-order-confirmation',

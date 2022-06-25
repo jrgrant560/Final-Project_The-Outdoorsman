@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { Cart } from '../models/cart';
+import { Cart } from '../../models/cart';
 import { observable, of } from 'rxjs';
-import { UserServiceService } from '../services/user-service.service';
+import { UserServiceService } from '../../services/user-service.service';
 import { ActivatedRoute, Router } from '@angular/router';
-import { User } from '../models/user';
-import { Order } from '../models/order';
-import { OutdoorsmanService } from '../services/outdoorsman.service';
+import { User } from '../../models/user';
+import { Order } from '../../models/order';
+import { OutdoorsmanService } from '../../services/outdoorsman.service';
 import { NumberValueAccessor } from '@angular/forms';
 import { SHA256, enc } from 'crypto-js';
 

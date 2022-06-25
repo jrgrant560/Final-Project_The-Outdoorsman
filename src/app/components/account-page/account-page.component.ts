@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Order } from '../models/order';
-import { User } from '../models/user';
-import { OutdoorsmanService } from '../services/outdoorsman.service';
-import { UserServiceService } from '../services/user-service.service';
-import { Product } from '../models/product';
+import { Order } from '../../models/order';
+import { User } from '../../models/user';
+import { OutdoorsmanService } from '../../services/outdoorsman.service';
+import { UserServiceService } from '../../services/user-service.service';
+import { Product } from '../../models/product';
 import * as moment from 'moment';
 
 @Component({

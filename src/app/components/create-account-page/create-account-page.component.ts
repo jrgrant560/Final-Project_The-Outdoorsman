@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { User } from '../models/user';
-import { UserServiceService } from '../services/user-service.service';
+import { User } from '../../models/user';
+import { UserServiceService } from '../../services/user-service.service';
 // import * as crypto from 'crypto';
 // const crypto = require('crypto');
 import { SHA256, enc } from 'crypto-js';

@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutUsPageComponent } from './about-us-page/about-us-page.component';
-import { CreateAccountPageComponent } from './create-account-page/create-account-page.component';
-import { LoginPageComponent } from './login-page/login-page.component';
-import { MainLandingPageComponent } from './main-landing-page/main-landing-page.component';
-import { IndividualItemPageComponent } from './individual-item-page/individual-item-page.component';
-import { CategoryPageComponent } from './category-page/category-page.component';
-import { CartPageComponent } from './cart-page/cart-page.component';
-import { CheckoutPageComponent } from './checkout-page/checkout-page.component';
-import { AccountPageComponent } from './account-page/account-page.component';
-import { OrderConfirmationComponent } from './order-confirmation/order-confirmation.component';
+import { AboutUsPageComponent } from './components/about-us-page/about-us-page.component';
+import { CreateAccountPageComponent } from './components/create-account-page/create-account-page.component';
+import { LoginPageComponent } from './components/login-page/login-page.component';
+import { MainLandingPageComponent } from './components/main-landing-page/main-landing-page.component';
+import { IndividualItemPageComponent } from './components/individual-item-page/individual-item-page.component';
+import { CategoryPageComponent } from './components/category-page/category-page.component';
+import { CartPageComponent } from './components/cart-page/cart-page.component';
+import { CheckoutPageComponent } from './components/checkout-page/checkout-page.component';
+import { AccountPageComponent } from './components/account-page/account-page.component';
+import { OrderConfirmationComponent } from './components/order-confirmation/order-confirmation.component';
 
 const routes: Routes = [
   {path: '', redirectTo: "home", pathMatch: "full"},
